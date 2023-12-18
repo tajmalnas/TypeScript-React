@@ -1,10 +1,17 @@
 import Child from "./Child"
 
 const Parent = () => {
-    const color = "red"
+    const color = "blue"
+    const click = () => {
+        console.log("Clicked")
+    }
   return (
     <div>
-        <Child color={color} />
+        <Child onClick={click} color={color} >
+            <div>
+                hi there 
+            </div>
+        </Child>
     </div>
   )
 }

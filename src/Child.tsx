@@ -1,5 +1,9 @@
+import React from "react";
+
 interface childProps {
     color: string;
+    onClick: () => void;     //function that takes no arguments and returns nothing
+    children: React.ReactNode;
 }
 
 // const Child = ({color}:childProps) => {
@@ -8,9 +12,15 @@ interface childProps {
 //   )
 // }
 
-const Child:React.FC<childProps> = ({color})=> {  //defining function component in  typescript as React.FC<props>
+const Child:React.FC<childProps> = ({color,onClick,children})=> {  //defining function component in  typescript as React.FC<props>
     return (
-        <div>{color}</div>
+        <div>
+            {color}
+            <button onClick={onClick}>
+                Click me
+            </button>
+            {children}
+        </div>
     )
 }
 
