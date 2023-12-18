@@ -1,5 +1,6 @@
 import './App.css'
-import ContactList from './state/ContactList'
+import UserSearch from './state/UserSearch'
+// import ContactList from './state/ContactList'
 // import Parent from './Parent'
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
   return (
     <div>
       {/* <Parent/> */}
-      <ContactList/>
+      {/* <ContactList/> */}
+      <UserSearch/>
     </div>
   )
 }
