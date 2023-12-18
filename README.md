@@ -1,14 +1,17 @@
-#React + Vite + TypeScript
+```#React + Vite + TypeScript```
 
-In this project their we can leran how to use typescript in react and vite .There are different folders explaining use of diiferent uses in TypeScript
+In this project their we can learn how to use typescript in react and vite .There are different folders explaining use of diiferent uses in TypeScript
 
-#state 
+```#state``` 
+
 This folder showcase how to use states and useSates in TS
 
-#Ref
+```#Ref```
+
 This folder showcase how to use ref and useRef in TS as there is some complication of null and undefined values
 
-#React.FC 
-This is used to declared fucntional component in TypeScript
+```#React.FC ```
 
-#More
+his is used to declared fucntional component in TypeScript
+
+```#More```
