@@ -1,11 +1,13 @@
 import './App.css'
-import Parent from './Parent'
+import ContactList from './state/ContactList'
+// import Parent from './Parent'
 
 function App() {
 
   return (
     <div>
-      <Parent/>
+      {/* <Parent/> */}
+      <ContactList/>
     </div>
   )
 }

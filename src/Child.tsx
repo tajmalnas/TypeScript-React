@@ -3,7 +3,7 @@ import React from "react";
 interface childProps {
     color: string;
     onClick: () => void;     //function that takes no arguments and returns nothing
-    children: React.ReactNode;
+    children: React.ReactNode;  // Getting children
 }
 
 // const Child = ({color}:childProps) => {
