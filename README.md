@@ -15,3 +15,5 @@ This folder showcase how to use ref and useRef in TS as there is some complicati
 his is used to declared fucntional component in TypeScript
 
 ```#More```
+
+For basic check any typescript project of my repo
